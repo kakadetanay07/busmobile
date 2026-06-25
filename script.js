@@ -120,8 +120,8 @@ function makeBusIcon() {
   });
 }
 
-var busMarker  = L.marker([17.0572, 74.5432], { icon: makeBusIcon(), zIndexOffset: 1000 }).addTo(map);
-var busMarker2 = L.marker([17.0572, 74.5432], { icon: makeBusIcon(), zIndexOffset: 1000 }).addTo(map2);
+var busMarker  = L.marker([17.06256, 74.28186], { icon: makeBusIcon(), zIndexOffset: 1000 }).addTo(map);
+var busMarker2 = L.marker([17.06256, 74.28186], { icon: makeBusIcon(), zIndexOffset: 1000 }).addTo(map2);
 
 // ── Route stop markers ────────────────────────────────────────────────────────
 function makeStopIcon(stop) {
