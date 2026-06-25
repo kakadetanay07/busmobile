@@ -18,7 +18,7 @@ const PY = "https://busmobile.onrender.com";
 
 // ── Route stops: RIT Islampur → Aashta → Sangli Bus Stand (via NH-48) ────────
 const ROUTE_STOPS = [
-  { id: 1, name: "RIT Islampur",         lat: 17.0345, lng: 74.1654, terminal: true,  icon: "🎓", color: "#00e57a",
+  { id: 1, name: "RIT Islampur",         lat: 17.06256, lng: 74.28186, terminal: true,  icon: "🎓", color: "#00e57a",
     terminalMsg: "🎓 Arriving at Rajarambapu Institute of Technology! Welcome, students. End of route." },
   { id: 2, name: "Islampur Town",        lat: 17.0421, lng: 74.5461, terminal: false, icon: "📍", color: "#00c8ff" },
   { id: 3, name: "Aashta",               lat: 16.9836, lng: 74.5410, terminal: false, icon: "🛣️", color: "#00c8ff" },
@@ -32,7 +32,7 @@ const TERMINAL_ALERT_RADIUS_KM = 0.4;
 const alertedStops = new Set();
 
 // ── State ─────────────────────────────────────────────────────────────────────
-let currentLat = 17.0345, currentLng = 74.1654;
+let currentLat = 17.06256, currentLng = 74.28186;
 let currentSpeed = 0;
 let animationInterval = null;
 let trailEnabled = true;
